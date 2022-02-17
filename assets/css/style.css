@@ -384,6 +384,10 @@ section {
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
+.facts .count-box .loveicon {
+  
+ margin-bottom: 10px;
+}
 .facts .count-box {
   padding: 30px 30px 25px 30px;
   margin-top: 30px;
@@ -701,7 +705,15 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-
+@media (min-width: 1000px) {
+  .services .row{
+    margin-left: 350px;
+   position:static;
+   
+    
+   
+  }
+  }
 
 .services .icon-box {
   text-align: center;
